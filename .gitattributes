@@ -1,0 +1,4 @@
+source/_posts/*.md linguist-detectable
+scaffolds/** linguist-vendored
+themes/** linguist-vendored
+*.json linguist-vendored

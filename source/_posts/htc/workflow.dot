@@ -1,0 +1,15 @@
+digraph {
+    0 [shape = rectangle; label = "fork 仓库";];
+    1 [shape = rectangle; label = "clone 到本地";];
+    2 [shape = rectangle; label = "本地编辑";];
+    3 [shape = rectangle; label = "在线编辑";];
+    4 [shape = rectangle; label = "发起 Pull request";];
+    5 [shape = rectangle; label = "等待合并";];
+    
+    0 -> 1;
+    0 -> 3;
+    1 -> 2;
+    2 -> 4;
+    3 -> 4;
+    4 -> 5;
+}
