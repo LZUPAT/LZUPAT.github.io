@@ -28,7 +28,7 @@
     "hexo-theme-next": "^8.26.0"
   },
   "devDependencies": {
-    "prettier": "^3.7.3"
+    "prettier": "^3.7.4"
   },
   "packageManager": "yarn@1.22.22"
 }
